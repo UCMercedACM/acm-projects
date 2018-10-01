@@ -24,21 +24,22 @@
 </template>
 
 <script>
-import ProjectService from "@/services/ProjectServices.js";
+import ProjectService from '@/services/ProjectService.js';
+
 export default {
-  props: ["id"],
+  props: ['id'],
   data() {
     return {
       project: {}
     };
   },
   created() {
-    ProjectService.getproject(this.id)
+    ProjectService.getProject(this.id)
       .then(response => {
         this.project = response.data;
       })
       .catch(error => {
-        console.log("There was an error:", error.response);
+        console.log('There was an error:', error.response);
       });
   }
 };

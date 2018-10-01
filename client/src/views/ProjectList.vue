@@ -1,14 +1,13 @@
 <template>
   <div>
     <h1>Projects Listing</h1>
-    <ProjectCard v-for="project in projects" :key="project.id" :event="project" />
+    <ProjectCard v-for="project in projects" :key="project.id" :project="project"/>
   </div>
 </template>
 
 <script>
-import ProjectCard from "@/components/ProjectCard.vue";
-import ProjectService from "@/services/ProjectServices.js";
-
+import ProjectCard from '@/components/ProjectCard.vue';
+import ProjectService from '@/services/ProjectService.js';
 export default {
   components: {
     ProjectCard
@@ -24,7 +23,7 @@ export default {
         this.projects = response.data;
       })
       .catch(error => {
-        console.log("There was an error:", error.response);
+        console.log('There was an error:', error.response);
       });
   }
 };
