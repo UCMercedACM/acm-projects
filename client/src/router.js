@@ -1,6 +1,8 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./views/Home.vue";
+import ProjectList from "./views/ProjectList.vue";
+import ProjectShow from "./views/ProjectShow.vue";
+import ProjectCreate from "./views/ProjectCreate.vue";
 
 Vue.use(Router);
 
@@ -10,17 +12,19 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "home",
-      component: Home
+      name: "project-list",
+      component: ProjectList
     },
     {
-      path: "/about",
-      name: "about",
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () =>
-        import(/* webpackChunkName: "about" */ "./views/About.vue")
+      path: "/project/:id",
+      name: "project-show",
+      component: ProjectShow,
+      props: true
+    },
+    {
+      path: "/project/create",
+      name: "project-create",
+      component: ProjectCreate
     }
   ]
 });
