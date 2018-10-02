@@ -1,76 +1,203 @@
 {
-  "projects": [
-    {
+  "projects": [{
       "id": 1,
-      "title": "Beach Cleanup",
-      "date": "Aug 28 2018",
-      "time": "10:00",
-      "location": "Daytona Beach",
-      "description": "Let's clean up this beach.",
-      "organizer": "Adam Jahr",
-      "category": "sustainability",
-      "attendees": [
-        {
+      "title": "Mobile Web App",
+      "organizer": "ACM",
+      "category": [{
           "id": "abc123",
-          "name": "Adam Jahr"
-        },
-        {
-          "id": "def456",
-          "name": "Gregg Pollack"
+          "name": "Mobile Development"
         },
         {
           "id": "ghi789",
-          "name": "Beth Swanson"
-        },
-        {
-          "id": "jkl101",
-          "name": "Mary Gordon"
+          "name": "Web Development"
         }
-      ]
+      ],
+      "description": "Construct a website and then transform it into a mobile app. Tasked with scripting a full stack application, meaning it includes a front end UI/UX and a backend server with proper endpoints.",
+      "advisor": "Adrian Darian",
+      "teams": [{
+        "id": "abc123",
+        "name": "Ozone"
+      }]
     },
     {
       "id": 2,
-      "title": "Park Cleanup",
-      "date": "Nov 12 2018",
-      "time": "12:00",
-      "location": "132 N Magnolia Street, Orlando, Florida",
-      "description": "We're going to clean up this park.",
-      "organizer": "Adam Jahr",
-      "category": "nature",
-      "attendees": [
-        {
-          "id": "ghi789",
-          "name": "Beth Swanson"
+      "title": "Mobile Web App",
+      "organizer": "ACM",
+      "category": [{
+          "id": "abc123",
+          "name": "Mobile Development"
         },
         {
-          "id": "jkl101",
-          "name": "Mary Gordon"
+          "id": "ghi789",
+          "name": "Web Development"
         }
-      ]
+      ],
+      "description": "Construct a website and then transform it into a mobile app. Tasked with scripting a full stack application, meaning it includes a front end UI/UX and a backend server with proper endpoints.",
+      "advisor": "Adrian Darian",
+      "teams": [{
+        "id": "abc123",
+        "name": "Ozone"
+      }]
     },
     {
       "id": 3,
-      "title": "Pet Adoption Day",
-      "date": "Dec 2 2018",
-      "time": "12:00",
-      "location": "132 N Magnolia Street, Orlando, Florida",
-      "description": "Help animals find new homes.",
-      "organizer": "Gregg Pollack",
-      "category": "animal welfare",
-      "attendees": [
-        {
+      "title": "Mobile Web App",
+      "organizer": "ACM",
+      "category": [{
           "id": "abc123",
-          "name": "Adam Jahr"
+          "name": "Mobile Development"
         },
         {
           "id": "ghi789",
-          "name": "Beth Swanson"
+          "name": "Web Development"
+        }
+      ],
+      "description": "Construct a website and then transform it into a mobile app. Tasked with scripting a full stack application, meaning it includes a front end UI/UX and a backend server with proper endpoints.",
+      "advisor": "Adrian Darian",
+      "teams": [{
+        "id": "abc123",
+        "name": "Ozone"
+      }]
+    },
+    {
+      "id": 4,
+      "title": "Mobile Web App",
+      "organizer": "ACM",
+      "category": [{
+          "id": "abc123",
+          "name": "Mobile Development"
         },
         {
-          "id": "jkl101",
-          "name": "Mary Gordon"
+          "id": "ghi789",
+          "name": "Web Development"
         }
-      ]
+      ],
+      "description": "Construct a website and then transform it into a mobile app. Tasked with scripting a full stack application, meaning it includes a front end UI/UX and a backend server with proper endpoints.",
+      "advisor": "Adrian Darian",
+      "teams": [{
+        "id": "abc123",
+        "name": "Ozone"
+      }]
+    },
+    {
+      "id": 5,
+      "title": "Mobile Web App",
+      "organizer": "ACM",
+      "category": [{
+          "id": "abc123",
+          "name": "Mobile Development"
+        },
+        {
+          "id": "ghi789",
+          "name": "Web Development"
+        }
+      ],
+      "description": "Construct a website and then transform it into a mobile app. Tasked with scripting a full stack application, meaning it includes a front end UI/UX and a backend server with proper endpoints.",
+      "advisor": "Adrian Darian",
+      "teams": [{
+        "id": "abc123",
+        "name": "Ozone"
+      }]
+    },
+    {
+      "id": 6,
+      "title": "Mobile Web App",
+      "organizer": "ACM",
+      "category": [{
+          "id": "abc123",
+          "name": "Mobile Development"
+        },
+        {
+          "id": "ghi789",
+          "name": "Web Development"
+        }
+      ],
+      "description": "Construct a website and then transform it into a mobile app. Tasked with scripting a full stack application, meaning it includes a front end UI/UX and a backend server with proper endpoints.",
+      "advisor": "Adrian Darian",
+      "teams": [{
+        "id": "abc123",
+        "name": "Ozone"
+      }]
+    },
+    {
+      "id": 7,
+      "title": "Mobile Web App",
+      "organizer": "ACM",
+      "category": [{
+          "id": "abc123",
+          "name": "Mobile Development"
+        },
+        {
+          "id": "ghi789",
+          "name": "Web Development"
+        }
+      ],
+      "description": "Construct a website and then transform it into a mobile app. Tasked with scripting a full stack application, meaning it includes a front end UI/UX and a backend server with proper endpoints.",
+      "advisor": "Adrian Darian",
+      "teams": [{
+        "id": "abc123",
+        "name": "Ozone"
+      }]
+    },
+    {
+      "id": 8,
+      "title": "Mobile Web App",
+      "organizer": "ACM",
+      "category": [{
+          "id": "abc123",
+          "name": "Mobile Development"
+        },
+        {
+          "id": "ghi789",
+          "name": "Web Development"
+        }
+      ],
+      "description": "Construct a website and then transform it into a mobile app. Tasked with scripting a full stack application, meaning it includes a front end UI/UX and a backend server with proper endpoints.",
+      "advisor": "Adrian Darian",
+      "teams": [{
+        "id": "abc123",
+        "name": "Ozone"
+      }]
+    },
+    {
+      "id": 9,
+      "title": "Mobile Web App",
+      "organizer": "ACM",
+      "category": [{
+          "id": "abc123",
+          "name": "Mobile Development"
+        },
+        {
+          "id": "ghi789",
+          "name": "Web Development"
+        }
+      ],
+      "description": "Construct a website and then transform it into a mobile app. Tasked with scripting a full stack application, meaning it includes a front end UI/UX and a backend server with proper endpoints.",
+      "advisor": "Adrian Darian",
+      "teams": [{
+        "id": "abc123",
+        "name": "Ozone"
+      }]
+    },
+    {
+      "id": 10,
+      "title": "Mobile Web App",
+      "organizer": "ACM",
+      "category": [{
+          "id": "abc123",
+          "name": "Mobile Development"
+        },
+        {
+          "id": "ghi789",
+          "name": "Web Development"
+        }
+      ],
+      "description": "Construct a website and then transform it into a mobile app. Tasked with scripting a full stack application, meaning it includes a front end UI/UX and a backend server with proper endpoints.",
+      "advisor": "Adrian Darian",
+      "teams": [{
+        "id": "abc123",
+        "name": "Ozone"
+      }]
     }
   ]
 }

@@ -1,9 +1,8 @@
 <template>
   <router-link class="project-link" :to="{ name: 'project-show', params: { id: project.id } }">
     <div class="project-card -shadow">
-      <span class="eyebrow">@{{ project.time }} on {{ project.date }}</span>
       <h4 class="title">{{ project.title }}</h4>
-      <BaseIcon name="users">{{ project.attendees.length }} attending</BaseIcon>
+      <BaseIcon name="users">{{ project.teams.length }} signed up</BaseIcon>
     </div>
   </router-link>
 </template>

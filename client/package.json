@@ -20,5 +20,6 @@
     "@vue/eslint-config-prettier": "^3.0.4",
     "vue-template-compiler": "^2.5.17"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "proxy": "http://localhost:8000"
 }
