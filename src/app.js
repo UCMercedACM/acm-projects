@@ -22,9 +22,9 @@ app.use(function (req, res, next) {
 
 app.use(cors());
 app.use(morgan('combined'));
-app.use(express.static(path.join(__dirname, "../../client", "dist")));
+app.use(express.static(path.join(__dirname, "../client", "dist")));
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../../client", "dist", "index.html"));
+  res.sendFile(path.join(__dirname, "../client", "dist", "index.html"));
 });
 app.use('/api', api);
 
@@ -32,6 +32,6 @@ app.get('/', function (req, res) {
   res.send('hello world');
 });
 
-app.listen(4000, function () {
-  console.log('Connected to Server ... on port 4000');
+app.listen(4001, function () {
+  console.log('Connected to Server ... on port 4001');
 });

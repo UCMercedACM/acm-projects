@@ -1,13 +1,16 @@
 <template>
   <div>
     <h1>Projects Listing</h1>
-    <ProjectCard v-for="project in projects" :key="project.id" :project="project"/>
+    <div class="project-cards">
+      <ProjectCard v-for="project in projects" :key="project.id" :project="project" class="project-content"/>
+    </div>
   </div>
 </template>
 
 <script>
 import ProjectCard from '@/components/ProjectCard.vue';
 import ProjectService from '@/services/ProjectService.js';
+
 export default {
   components: {
     ProjectCard
@@ -30,4 +33,13 @@ export default {
 </script>
 
 <style scoped>
+.project-cards {
+  padding-left: 10%;
+}
+
+.project-content {
+  float: left;
+  width: 40%;
+  padding-right: 5%;
+}
 </style>
