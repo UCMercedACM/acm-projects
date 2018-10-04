@@ -1,6 +1,9 @@
 const express = require('express');
 const router = express.Router();
 const mongoDB = require('mongodb');
+const mainDB = require('./db').main;
+
+// console.log(mainDB);
 
 router.get('/', function (req, res) {
   res.setHeader('Content-Type', 'application/json');
@@ -14,8 +17,8 @@ router.get('/', function (req, res) {
 router.get('/projects', function(req, res) {
   res.setHeader('Content-Type', 'application/json');
   
-  const projects = req.body.projects;
-  res.send(projects);
+  const project = req.body.mainDB.projects;
+  res.send(project);
 });
 
 module.exports = router;

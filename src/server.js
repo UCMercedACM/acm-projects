@@ -32,6 +32,5 @@ app.get('/', function (req, res) {
   res.send('hello world');
 });
 
-app.listen(4001, function () {
-  console.log('Connected to Server ... on port 4001');
-});
+const port = process.env.port || 4005;
+console.log("Server running on port " + port);
