@@ -14,8 +14,8 @@
     "path": "^0.12.7"
   },
   "scripts": {
-    "start": "nodemon src/server.js",
-    "heroku-postbuild": "cd client && yarn install && yarn build"
+    "heroku-postbuild": "nodemon src/server.js",
+    "heroku-pretbuild": "cd client && yarn install && yarn build"
   },
   "engines": {
     "node": "10.10"
