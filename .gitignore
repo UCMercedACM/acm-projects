@@ -1,7 +1,8 @@
 .DS_Store
 node_modules
 /dist
-/server/api/secrets.js
+/api/secrets.js
+/api/serviceAccountKey.json
 
 # local env files
 .env.local
