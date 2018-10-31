@@ -18,14 +18,14 @@ app.get('/', (req, res) => {
 });
 
 app.get('/messages', (req, res) => {
-  messages.getAll().then((messages) => {
+  messages.getAllUsers().then((messages) => {
     res.json(messages);
   });
 });
 
 app.post('/messages', (req, res) => {
   console.log(req.body);
-  messages.create(req.body).then((messages) => {
+  messages.createUser(req.body).then((messages) => {
     res.json(message);
   }).catch((error) => {
     res.status(500);
